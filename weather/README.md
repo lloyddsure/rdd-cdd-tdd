@@ -30,9 +30,9 @@ Pour lancer le programme, écrire
 ```
 
 
-### Ce qu fait Cli-Weather
+### Ce que fait Cli-Weather
 
 Le programme donne les prévisions météo sur les 4 prochains jours
-<img src="image.jpg" alt="Prevision">
+![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image.PNG)
 </body>
 </html>
