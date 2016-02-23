@@ -8,6 +8,7 @@
   - [minimist](#minimist)
   - [lancer](#lancer)
 - [Ce que fait CliWeather](#ce-que-fait-cliweather)
+- [Les differentes commandes](#les-differentes-commandes)
 - [Differents packages](#differents-packages)
   - [args](#args)
   - [config](#config)
@@ -53,8 +54,16 @@ Pour lancer le programme, écrire
 ## Ce que fait CliWeather
 
 Le programme donne les prévisions météo sur les 4 prochains jours
-![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image.PNG)
+![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image/image.PNG)
 
+
+## Les differentes commandes
+
+Pour ajouter une ville précise, ajouter -a "nom de la ville" :
+```sh
+❯ node index.js -a "Ruston,LA"
+![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image/result%20-a.PNG)
+```
 
 ## Differents packages
 
@@ -68,6 +77,9 @@ Data traite les résultats obtenus par la requête HTTP.
 Récupère les données depuis le fichier data.js qui sont traités.
 ###help
 Aide pour savoir à quoi les commandes correspondent.
+
+
+
 
 ## Licence
 Uncopyrite
