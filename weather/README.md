@@ -1,13 +1,13 @@
 # cli-weather
 
 
-- [Comment utiliser Cli-Weather](#comment-utiliser-CliWeather)
+- [Comment utiliser CliWeather](#comment-utiliser-CliWeather)
   - [public-ip](#public-ip)
   - [chalk](#chalk)
   - [cli-table](#cli-table)
   - [minimist](#minimist)
   - [lancer](#lancer)
-- [Ce que fait Cli-Weather](#ce-que-fait-CliWeather)
+- [Ce que fait CliWeather](#ce-que-fait-CliWeather)
 - [Just tell me what to do](#just-tell-me-what-to-do)
   - [args](#args)
   - [config](#config)
@@ -18,51 +18,51 @@
 
 
 
-### Comment utiliser CliWeather
+## Comment utiliser CliWeather
 
 Lancer le terminal ou l'invite commande entrer dans le repertoire /rdd-cdd-tdd/weather.
 
-##public-ip
+###public-ip
 Installer la librairie public-ip :
 ```sh
 ❯ npm install public-ip
 ```
-##chalk
+###chalk
 Installer la librairie chalk :
 ```sh
 ❯ npm install chalk
 ```
-##cli-table
+###cli-table
 Installer la librairie cli-table :
 ```sh
 ❯ npm install cli-table
 ```
-##minimist
+###minimist
 Installer la librairie minimist : 
 ```sh
 ❯ npm install minimist
 ```
 
-##lancer
+###lancer
 Pour lancer le programme, écrire 
 ```sh
 ❯ node index.js
 ```
 
 
-### Ce que fait CliWeather
+## Ce que fait CliWeather
 
 Le programme donne les prévisions météo sur les 4 prochains jours
 ![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image.PNG)
 
 
-### Just tell me what to do
+## Just tell me what to do
 
-##args
-##config
-##data
-##format
-##help
+###args
+###config
+###data
+###format
+###help
 
 ## Licence
 Uncopyrite
