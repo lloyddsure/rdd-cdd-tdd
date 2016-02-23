@@ -1,7 +1,7 @@
 # cli-weather
 
 
-- [Comment utiliser Cli-Weather](#comment -tiliser-Cli-Weather)
+- [Comment utiliser Cli-Weather](#comment-utiliser-Cli-Weather)
   - [public-ip](#public-ip)
   - [chalk](#chalk)
   - [cli-table](#cli-table)
@@ -12,39 +12,39 @@
 
 
 
-### Comment utiliser Cli-Weather
+###comment-utiliser-Cli-Weather
 
 Lancer le terminal ou l'invite commande entrer dans le repertoire /rdd-cdd-tdd/weather.
 
-#public-ip
+##public-ip
 Installer la librairie public-ip :
 ```sh
 ❯ npm install public-ip
 ```
-#chalk
+##chalk
 Installer la librairie chalk :
 ```sh
 ❯ npm install chalk
 ```
-#cli-table
+##cli-table
 Installer la librairie cli-table :
 ```sh
 ❯ npm install cli-table
 ```
-#minimist
+##minimist
 Installer la librairie minimist : 
 ```sh
 ❯ npm install minimist
 ```
 
-#lancer
+##lancer
 Pour lancer le programme, écrire 
 ```sh
 ❯ node index.js
 ```
 
 
-### Ce que fait Cli-Weather
+###ce-que-fait-Cli-Weather
 
 Le programme donne les prévisions météo sur les 4 prochains jours
 ![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image.PNG)
