@@ -62,8 +62,8 @@ Le programme donne les prévisions météo sur les 4 prochains jours
 Pour ajouter une ville précise, ajouter -a "nom de la ville" :
 ```sh
 ❯ node index.js -a "Ruston,LA"
-![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image/result%20-a.PNG)
 ```
+![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image/result%20-a.PNG)
 
 ## Differents packages
 
