@@ -1,13 +1,13 @@
 # cli-weather
 
 
-- [Comment utiliser CliWeather](#comment-utiliser-CliWeather)
+- [Comment utiliser CliWeather](#comment-utiliser-cliweather)
   - [public-ip](#public-ip)
   - [chalk](#chalk)
   - [cli-table](#cli-table)
   - [minimist](#minimist)
   - [lancer](#lancer)
-- [Ce que fait CliWeather](#ce-que-fait-CliWeather)
+- [Ce que fait CliWeather](#ce-que-fait-cliweather)
 - [Just tell me what to do](#just-tell-me-what-to-do)
   - [args](#args)
   - [config](#config)
