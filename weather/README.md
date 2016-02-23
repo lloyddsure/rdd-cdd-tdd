@@ -8,11 +8,12 @@
   - [minimist](#minimist)
   - [lancer](#lancer)
 - [Ce que fait Cli-Weather](#ce-que-fait-Cli-Weather)
+- [Just tell me what to do](#just-tell-me-what-to-do)
 - [Licence](#licence)
 
 
 
-###comment-utiliser-Cli-Weather
+### Comment utiliser Cli-Weather
 
 Lancer le terminal ou l'invite commande entrer dans le repertoire /rdd-cdd-tdd/weather.
 
@@ -44,10 +45,13 @@ Pour lancer le programme, écrire
 ```
 
 
-###ce-que-fait-Cli-Weather
+### Ce que fait Cli-Weather
 
 Le programme donne les prévisions météo sur les 4 prochains jours
 ![alt tag](https://github.com/lloyddsure/rdd-cdd-tdd/blob/master/weather/image.PNG)
+
+
+### Just tell me what to do
 
 ## Licence
 Uncopyrite
