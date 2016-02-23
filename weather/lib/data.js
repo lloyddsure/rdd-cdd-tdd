@@ -3,6 +3,7 @@ var chalk = require('chalk'),
     blue = chalk.blue,
     table = require('cli-table');
 
+//catch the data
 function collectDates(data) {
     var dates = [];
 
@@ -14,6 +15,7 @@ function collectDates(data) {
     return dates;
 }
 
+//display in color and the sentences according to the high temperature
 function collectHighs(data, units) {
     var highs = [],
         temp,
@@ -35,6 +37,7 @@ function collectHighs(data, units) {
     return highs;
 }
 
+//display in color and the sentences according to the high temperature
 function collectLows(data, units) {
     var lows = [],
         temp,
@@ -65,6 +68,7 @@ function collectSummary(data) {
     return summaries;
 }
 
+//catch the precipitation
 function collectPrecip(data) {
 
     var precips = [];
@@ -77,6 +81,7 @@ function collectPrecip(data) {
 
 }
 
+// give the hour of the during of the days
 function formatTime(date) {
     var suffix = "am";
     var hours = date.getHours();
@@ -100,6 +105,7 @@ function formatTime(date) {
     return hours + ":" + minutes + " " + suffix;
 }
 
+//level of sunshine
 function collectSunrises(data) {
     var sunrises = [];
 

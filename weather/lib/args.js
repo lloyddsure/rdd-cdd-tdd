@@ -3,6 +3,8 @@ var http = require('http'),
     chalk = require('chalk'),
     Format = require('./format');
 
+	
+//make the HTTP request to collect the data using our location
 function weatherRequest(location, units, args) {
     var weather_options = {
         host: 'api.forecast.io',
@@ -28,6 +30,7 @@ function weatherRequest(location, units, args) {
     });
 }
 
+//make the HTTP request to collect the data using an adress
 function address(addr, callback, units, args) {
 
     var location_options = {
@@ -60,6 +63,8 @@ function address(addr, callback, units, args) {
     });
 }
 
+
+//make the HTTP request to collect the data using our ip adress
 function automatic(ip, callback, units, args) {
 
     var location_options = {

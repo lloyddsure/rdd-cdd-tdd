@@ -15,6 +15,7 @@ function Config(units, ip) {
     this.ip = ip;
 }
 
+//take the command line
 Config.prototype.sudo = function () {
 
     var that = this;
@@ -34,6 +35,7 @@ Config.prototype.sudo = function () {
     }
 };
 
+//take the different option given in the command line
 Config.prototype.control = function () {
     var keys = Object.keys(this.args).length - 1,
         args = this.args;
